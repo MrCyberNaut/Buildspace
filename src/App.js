@@ -134,6 +134,7 @@ const App = () => {
     const file = event.target.files[0];
     if (file) {
       setImagePreviewUrl(URL.createObjectURL(file));
+      console.log(URL.createObjectURL(file));
     }
   };
 
